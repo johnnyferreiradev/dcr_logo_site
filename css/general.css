@@ -1,0 +1,15 @@
+:root {
+    /* ... */
+}
+
+@font-face {
+    src: url(../assets/fonts/Oswald/Oswald-Regular.ttf);
+    font-family: 'Oswald-Regular';    
+    font-weight: normal;
+} 
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald-Regular';
+}
