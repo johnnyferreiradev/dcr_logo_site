@@ -1,5 +1,9 @@
 :root {
-    /* ... */
+    --azul-escuro: #1C5380;
+    --azul-claro: #85C8FF;
+    --azul-medio: #2D84CC;
+    --cinza-claro: #f0f0f0;
+    --caramelho: #FFB138;
 }
 
 @font-face {
@@ -21,7 +25,7 @@
 }
 
 .home {
-    background-color: aqua;
+    background-color: var(--cinza-claro);
     height: 100vh;
 }
 
@@ -29,27 +33,15 @@
     height: 100vh;
 }
 
-/* Testes */
-.azul {
-    background-color: lightseagreen;
+.area1 {
+    background-color: var(--azul-medio);
 }
 
-.verde {
-    background-color: chartreuse;
+.area2 {
+    background-color: var(--cinza-claro);
 }
 
-.amarelo {
-    background-color: yellow;
+.area3 {
+    background-color: var(--caramelho);
 }
 
-.cinza {
-    background-color: #555;
-}
-
-.vermelho1 {
-    background-color: red;
-}
-
-.vermelho2 {
-    background-color: rgb(255, 70, 70);
-}
