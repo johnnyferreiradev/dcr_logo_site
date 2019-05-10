@@ -1,0 +1,16 @@
+.banner {
+    height: 78vh;
+}
+
+.home nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    position: relative;
+    height: 100%;
+}
+
+.navbar img {
+    height: 50px;
+}
