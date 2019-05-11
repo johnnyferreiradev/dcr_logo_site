@@ -1,4 +1,6 @@
-.who-we-are {
-    height: 100vh;
-    background-color: dimgrey;
+
+.who-we-are .logo-min {
+    box-sizing: border-box;
+    width: 100%;
 }
+

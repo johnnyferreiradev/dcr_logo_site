@@ -1,3 +1,10 @@
 .differential li {
     list-style: none;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.differential li i {
+    font-size: 1.5em;
+    padding-right: 10px;
 }

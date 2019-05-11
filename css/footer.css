@@ -11,3 +11,18 @@
     color: white;
     padding: 10px 0px;
 }
+
+.contato .contato-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contato .logo-footer {
+    
+}
+
+.contato .logo-footer img {
+    box-sizing: border-box;
+    width: 200px;
+}

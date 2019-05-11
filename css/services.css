@@ -1,7 +1,7 @@
 .cards-services  {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -11,4 +11,15 @@
 
 .cards-services .card {
     width: 20rem;
+}
+
+.cards-services .card .icone-card{
+    text-align: center;
+}
+
+.cards-services .card i {
+    font-size: 5em;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(81, 81, 243);
 }
