@@ -1,0 +1,14 @@
+.cards-services  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-services div {
+    margin-bottom: 30px;
+}
+
+.cards-services .card {
+    width: 20rem;
+}
