@@ -14,64 +14,57 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap" rel="stylesheet">
     <title>Data Care Recovery</title>
 </head>
 
 <body>
-    <div class="container-fluid home">
-        <div class="row mb-4">
-            <div class="col-12">
-                <nav class="navbar fixed-top bg-dark p-2 d-flex justify-content-between align-items-center"
-                    style="color:white">
-                    <a class="navbar-brand pl-4" href="#">
-                        <img src="imgs/logo_h_monocromatico.png" alt="">
-                    </a>
-                    <nav>
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Disabled</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="pr-4">Outra opção</div>
-                </nav>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-light d-flex justify-content-sm-between align-items-center"
+        id="menu-principal">
+        <figure class="icone-menu d-none d-sm-block">
+            <img src="./imgs/logo_h_monocromatico.png" alt="">
+        </figure>
 
-        <div class="row full-screen">
-            <div class="container">
-                <div class="row pt-5">
-                    <div class="col-6 pt-2">
-                        <img id="logo-banner" class="img-fluid" src="imgs/logo_v.png" alt="Logo vertical">
-                    </div>
-                    <div class="col-6 texto-logo-banner">
-                        <h1>ESPECIALIZADA EM RECUPERAÇÃO E SEGURANÇA DE DADOS</h1>
-                    </div>
-                </div>
+        <ul class="navbar-nav d-flex flex-row justify-content-center">
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="#quem-somos">Quem somos</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="#diferencial">Diferencial</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link disabled" href="#rodape">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid full-screen" id="banner">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12 d-flex flex-column justify-content-center align-items-center">
+                <figure class="p-5">
+                    <img src="./imgs/logo_v.png" alt="" class="">
+                </figure>
+            </div>
+            <div class="col-8 direito full-screen d-none d-md-block">
+                <h1 class="text-center" style="width: 100%;">Especializada em recuperação e segurança de dados!</h1>
             </div>
         </div>
     </div>
 
     <div class="container-fluid who-we-are">
-        <div class="row pb-4">
+        <div class="row pb-4 pt-4">
             <div class="col-12">
                 <div class="container">
                     <div class="row mb-2">
                         <div class="col-12">
-                            <h1 class="pt-4 linha">QUEM SOMOS</h1>
+                            <h1 class="pt-4 linha" id="quem-somos">QUEM SOMOS</h1>
                         </div>
                     </div>
                     <div class="row pt-4 pad-all">
-                        <div class="col-4">
+                        <div class="col-lg-4 col-md-12 col-xs-12">
                             <p class="mb-3">
                                 Com mais de 5 anos de experiência, a DCR é hoje uma das mais
                                 promissoras empresas na área de gestão de segurança e de
@@ -84,7 +77,7 @@
                                 isso, temos expertise para atender o seu negócio.
                             </p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-md-12 col-xs-12">
                             <h3 class="mb-3">MISSÃO</h3>
                             <p>
                                 Oferecer gestão produtiva da infraestrutura de internet com otimização, disponibilidade
@@ -96,7 +89,7 @@
                                 Informação para o uso produtivo da internet.
                             </p>
                         </div>
-                        <div class="col-4 img-fluid">
+                        <div class="col-lg-4 col-md-6 col-xs-12 img-fluid">
                             <img class="logo-min" src="imgs/logo_v_min.png" alt="">
                         </div>
                     </div>
@@ -105,7 +98,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-primary">
+    <div class="container-fluid" id="diferencial">
         <div class="row">
             <div class="col-12">
                 <div class="container differential">
@@ -115,7 +108,7 @@
                         </div>
                     </div>
                     <div class="row pt-4 pb-4">
-                        <div class="col-6">
+                        <div class="col-md-6 col-xs-12">
                             <ul>
                                 <li><span><i class="fas fa-smile-beam"></i></span> SIMPLES, FÁCIL E INTUITIVO</li>
                                 <li><span><i class="fas fa-briefcase"></i></span> DESENVOLVIMENTO PRÓPRIO</li>
@@ -126,7 +119,7 @@
                                 <li><span><i class="fas fa-headset"></i></span> SUPORTE FENOMENAL ILIMITADO</li>
                             </ul>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6 col-xs-12">
                             <h3 class="mb-4">SIMPLES, FÁCIL E INTUITIVO <span><i class="fas fa-smile-beam"></i></h3>
                             <p>
                                 A DCR desenvolve as soluções pensando na experiência do cliente, nosso foco é manter uma
@@ -147,7 +140,7 @@
                 <div class="container">
                     <div class="row mb-4">
                         <div class="col-12">
-                            <h1 class="linha">SERVIÇOS</h1>
+                            <h1 class="linha" id="servicos">SERVIÇOS</h1>
                         </div>
                     </div>
 
@@ -166,7 +159,8 @@
                                         etc.
                                     </p>
                                     <div class="form-group mb-0 pt-3">
-                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver mais...</button>
+                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver
+                                            mais...</button>
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +180,8 @@
                                         informações.
                                     </p>
                                     <div class="form-group mb-0 pt-3">
-                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver mais...</button>
+                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver
+                                            mais...</button>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +197,8 @@
                                         Monitore o desempenho do seu website em tempo real.
                                     </p>
                                     <div class="form-group mb-0 pt-3">
-                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver mais...</button>
+                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver
+                                            mais...</button>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +218,8 @@
                                         seguro e, portanto, confiável para o Google e para os visitantes.
                                     </p>
                                     <div class="form-group mb-0 pt-3">
-                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver mais...</button>
+                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver
+                                            mais...</button>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +240,8 @@
                                         Com a automação pode economizar 61% nos custos operacionais da rede.
                                     </p>
                                     <div class="form-group mb-0 pt-3">
-                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver mais...</button>
+                                        <button type="button" class="btn btn-light" style="width: 100%;">Ver
+                                            mais...</button>
                                     </div>
                                 </div>
                             </div>
@@ -254,7 +252,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark" id="rodape">
         <div class="row pt-4 contato">
             <div class="container">
                 <div class="row">
@@ -263,13 +261,13 @@
                     </div>
                 </div>
                 <div class="row pb-4">
-                    <div class="col-6 contato-left">
+                    <div class="col-md-6 col-xs-12 contato-left">
                         <h3>Agende uma demonstração de nossas soluções</h3>
-                        <div class="logo-footer img-fluid">
+                        <div class="logo-footer img-fluid mt-4 mb-4">
                             <img src="imgs/logo_h_monocromatico.png" alt="">
                         </div>
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-md-6 col-xs-12 mb-3">
                         <h3 class="mb-3">Envie-nos uma mensagem</h3>
                         <form>
                             <div class="form-group">
@@ -301,8 +299,13 @@
     </div>
 
     <script src="assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="js/jQuery.js"></script>
     <script>
-
+        $(document).scroll(function () {
+            if ($(this).scrollTop() > 500) {
+                console.log('Mais de 500 pixels submarinos');
+            }
+        });
     </script>
 </body>
 

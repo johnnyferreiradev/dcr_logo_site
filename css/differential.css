@@ -7,4 +7,15 @@
 .differential li i {
     font-size: 1.5em;
     padding-right: 10px;
+    color: #365abd;
+}
+
+#diferencial {
+    background-color: #fff;
+    color: #2f2b4e;
+    box-shadow: 1px 1px 5px #0002;
+}
+
+span i {
+    color: #365abd;
 }

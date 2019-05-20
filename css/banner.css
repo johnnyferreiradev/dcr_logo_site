@@ -3,6 +3,10 @@
     color: white;
 }
 
+.home .navbar {
+    background-color: #5576d1;
+}
+
 .navbar .navbar-brand {
     position: relative;
     height: 100%;
@@ -13,9 +17,71 @@
 }
 
 #logo-banner {
-    padding: 50px;
+    padding: 100px;
 }
 
 .texto-logo-banner {
     padding: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-logo-banner h1 {
+    font-size: 3.2em;
+    color: #2f2b4e;
+    padding: 20px;
+}
+
+.texto-logo-banner h1 span {
+    /* font-size: 0.6em; */
+}
+
+.banner-area {
+    /* background: linear-gradient(to right, #aaaaaa, #ffffff); */
+    background-color: white;
+}
+
+.banner-area .b-a-center {
+    /* background-color: #fff; */
+}
+
+/* Novo Banner */
+#menu-principal ul li.nav-item a {
+    color: white;
+}
+
+#menu-principal figure {
+    position: relative;
+}
+
+#menu-principal figure img {
+    height: 2em;
+    position: absolute;
+    top: -8px;
+}
+
+#banner {
+    box-shadow: 1px 1px 10px #0005;
+}
+
+#banner figure img {
+    height: 300px;
+}
+
+.direito {
+    background-image: url('../imgs/bg_banner5.jpg');
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.direito h1 {
+    width: 80%;
+    color: #2f2b4e;
+    padding-top: 50px;
 }
